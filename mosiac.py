@@ -170,8 +170,8 @@ iface = gr.Interface(
         gr.Image(label="Pokemon Mosaic"),
         gr.Markdown(label="Performance Metrics")
     ],
-    title="Enhanced Pokemon Mosaic Generator",
-    description="Create a mosaic using Pokemon sprites. Compare original, quantized, and final mosaic images."
+    title="Pokemon Mosaic Generator",
+    description="Upload a target photo to get a mosaic using Pokemon sprites"
 )
 
 if __name__ == "__main__":
